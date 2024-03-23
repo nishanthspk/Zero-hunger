@@ -90,7 +90,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" pt-[10%] mx-20">
+      {/* <div className=" pt-[10%] mx-20">
         <div className=" bg-red-300 w-full rounded-lg">
           <p className=" text-3xl font-medium p-2 mb-10">Choose your favorite:</p>
         </div>
@@ -126,7 +126,7 @@ const Home = () => {
           <p className=" flex justify-center pt-2">Fruits</p>
         </div>
         </div>
-      </div>
+      </div> */}
 
       <div className=" pt-[10%] mx-20">
         <div className=" flex justify-between items-center rounded-2xl  w-[50%] p-6 bg-transparent backdrop-filter backdrop-blur-lg bg-opacity-20 shadow-2xl">

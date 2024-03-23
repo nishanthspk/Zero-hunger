@@ -41,6 +41,7 @@ const Navbar = () => {
               Takeaway
             </Link>
           </li>
+          
         </ul>
         <Connbutton />
       </div>
