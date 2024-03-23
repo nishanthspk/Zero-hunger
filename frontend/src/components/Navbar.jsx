@@ -38,7 +38,7 @@ const Navbar = () => {
               className={`menu-item ${activeMenu === 'take' ? 'active' : ''}`}
               onMouseEnter={() => handleMenuClick('take')}
             >
-              Takeaway
+              News
             </Link>
           </li>
           

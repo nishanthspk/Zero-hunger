@@ -9,6 +9,7 @@ import Track from '../assets/track.png';
 import { Link } from "react-router-dom";
 import Fruit from '../assets/fruit.png';
 import Veg from '../assets/veg.png';
+import Activity from '../assets/activity.png';
 
 const Home = () => {
   return (
@@ -128,8 +129,8 @@ const Home = () => {
         </div>
       </div> */}
 
-      <div className=" pt-[10%] mx-20">
-        <div className=" flex justify-between items-center rounded-2xl  w-[50%] p-6 bg-transparent backdrop-filter backdrop-blur-lg bg-opacity-20 shadow-2xl">
+      <div className=" pt-[10%] mx-20 flex justify-between">
+        <div className=" flex justify-between items-center rounded-2xl  w-[45%] p-6 bg-transparent hover:bg-slate-100 backdrop-filter backdrop-blur-lg bg-opacity-20 shadow-2xl">
           <div className=" items-center">
             <p className=" text-2xl font-semibold text-red-400">ARTICLE </p>
             <p className=" text-xl pt-3">
@@ -148,8 +149,24 @@ const Home = () => {
           </div>
           <img className=" h-52 pr-16 w-auto" src={Burger} alt="" />
         </div>
-        <div className=""></div>
-      </div>
+        <div className=" flex justify-between items-center rounded-2xl  w-[45%] p-6 bg-transparent hover:bg-slate-100 backdrop-filter backdrop-blur-lg bg-opacity-20 shadow-2xl">
+          <div className=" items-center">
+            <p className=" text-2xl font-semibold text-red-400">ARTICLE </p>
+            <p className=" text-xl pt-3">
+            Role of <span className=" text-red-400 pl-3">Physical Activity</span> on Mental Health and Well-Being 
+            </p>
+            <div className=" space-x-6 pt-10">
+              <a
+                href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9902068/"
+                target="_blank"
+                className="py-3 px-3 bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 rounded-lg cursor-pointer font-semibold text-white hover:from-green-400 hover:to-green-200 hover:text-black"
+              >
+                Know more
+              </a>
+            </div>
+          </div>
+          <img className=" h-52 w-auto" src={Activity} alt="" />
+        </div>      </div>
     </div>
   );
 };
